@@ -1,0 +1,30 @@
+{
+    "id": "no-token-panning",
+    "title": "No Token Panning",
+    "description": "Prevent Foundry VTT from automatically panning when tokens move offscreen",
+    "url": "https://github.com/AnthonyEdmonds/no-token-panning",
+    "manifest": "https://raw.githubusercontent.com/AnthonyEdmonds/no-token-panning/1.0.0/module.json",
+    "download": "https://github.com/AnthonyEdmonds/no-token-panning/archive/refs/tags/1.0.0.zip",
+    "authors": [
+        {
+            "name": "Anthony Edmonds",
+            "url": "https://github.com/AnthonyEdmonds"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility" : {
+        "minimum": "13",
+        "verified": "13"
+    },
+    "relationships": {
+        "requires": [
+            {
+                "id": "lib-wrapper",
+                "type": "module"
+            }
+        ]
+    },
+    "esmodules": [
+        "no-token-panning.js"
+    ]
+}
